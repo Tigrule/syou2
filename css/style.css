@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Azoft Sans';
+    src: url("../woff/azoft-sans.woff");
+}
+
+body {
+    background: #fafafa url(../img/back.jpg);
+    color: #a9a9a9;
+    font-size: medium;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 22px auto;
+}
+
+header {
+    background: black url("../img/head.jpg") center;
+    padding: 10px 5px;
+    font-family: 'Azoft Sans', "Arial Narrow", serif;
+    font-weight: 500;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: x-large;
+}
+
+header nav a:link, header nav a:hover, header nav a:visited {
+    text-decoration: none;
+    color: #2323ca;
+}
+
+.nav-item {
+    padding: 5px 10px;
+}
+
+header a:hover, #logo:hover {
+    transform: rotate(-2deg);
+}
+
+.wrap {
+    width: 85%;
+    padding: 70px 30px 100px 30px;
+    margin: 0 auto;
+    background: #55555544;
+    border-radius: 15px;
+}
+
+.mt-60px {
+    margin-top: 60px;
+}
+
+.wrap p {
+    color: #ffc9c9;
+
+}
+
+.wrap a:link {
+    color: white;
+}
+body a:visited {
+    color: #aaa;
+}
+body a:hover {
+    color: cadetblue;
+}
